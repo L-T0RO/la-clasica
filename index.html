@@ -2,51 +2,45 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nuestro Menú — Panadería Clásica</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menú — Panadería Clásica</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
 
-<!-- HEADER -->
 <header>
-  <img class="header-logo" src="https://www.panaderiaclasica.com.ar/public/img/logo.png" alt="Panadería Clásica" />
-  <h1>panadería y pastelería</h1>
+  <img class="header-logo" src="https://www.panaderiaclasica.com.ar/public/img/logo.png"/>
+  <h1>Panadería Clásica</h1>
   <p>Bahía Blanca · Desde siempre</p>
-  <div class="header-divider"><span></span><i>✦</i><span></span></div>
-  <div style="text-align:center; margin: 10px 0;">
 </header>
 
-<!-- SEARCH -->
 <div class="search-wrap">
   <div class="search-inner">
     <span class="search-icon">🔍</span>
-    <input type="text" id="search-input" placeholder="Buscar en el menú… (ej: croissant, burger, café)" />
+    <input type="text" id="search-input" placeholder="Buscar en el menú..."/>
   </div>
   <div id="search-count"></div>
 </div>
 
-<!-- CATEGORY NAV -->
-<a href="pages/sucursales.html" class="btn-especialidades">
-  Especialidades
-</a>
+<div style="text-align:center;">
+  <a href="pages/sucursales.html" class="btn-especialidades">Especialidades</a>
+</div>
+
 <nav class="cat-nav">
   <div class="cat-nav-inner" id="cat-nav-inner">
     <a class="cat-btn active" href="#" data-cat="all">Todo</a>
   </div>
 </nav>
 
-<!-- MAIN -->
 <main id="main-content"></main>
 
-<!-- NO RESULTS -->
 <div id="no-results">
   <h3>Sin resultados</h3>
-  <p>Probá con otro término de búsqueda.</p>
+  <p>Probá con otra búsqueda.</p>
 </div>
 
-<!-- FOOTER -->
 <footer>
   <strong>Panadería Clásica</strong>
   Av. Alem 359 · Av. Colón 326 · Darwin 416 · Brasil 821<br/>
@@ -54,7 +48,7 @@
   Lun–Sáb: 6am–6pm · Dom: 6am–4pm
 </footer>
 
-<button id="scroll-top" title="Volver arriba">↑</button>
+<button id="scroll-top">↑</button>
 
 <script src="scripts/script.js"></script>
 </body>
